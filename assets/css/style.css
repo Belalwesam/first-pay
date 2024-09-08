@@ -329,6 +329,7 @@ footer {
     font-weight: lighter;
     color: var(--light-gray);
 }
+
 .footer-heading {
     margin-bottom: 1.5rem;
     font-weight: bold;
@@ -337,13 +338,45 @@ footer {
 .footer-nav-item {
     margin-bottom: 1rem;
 }
+
 .footer-nav-link {
     text-decoration: none;
     color: #000;
     font-size: 0.85rem;
 }
-/* media queries  */
 
+
+
+
+body.full-height {
+    height: 100vh;
+}
+
+.auth-container {
+    height: 100%;
+}
+
+.auth-columns {
+    display: flex;
+    align-items: center;
+}
+
+.auth-page-bg {
+    background: #F9F9FA;
+    text-align: center;
+    padding-inline: 5rem;
+}
+
+.auth-page-stepper-text h4 {
+    font-weight: bold;
+}
+
+.auth-page-stepper-text p {
+    color: var(--light-gray);
+}
+
+
+/* media queries  */
 @media only screen and (max-width: 767px) {
     #journey {
         margin-top: unset !important;
