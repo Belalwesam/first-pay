@@ -636,6 +636,11 @@ body.full-height {
     border: 1px solid var(--primary-blue);
 }
 
+#otp-input input.active {
+    background-color: var(--primary-blue);
+    color: #fff;
+}
+
 /* hide spinner */
 #otp-input input::-webkit-outer-spin-button,
 #otp-input input::-webkit-inner-spin-button {

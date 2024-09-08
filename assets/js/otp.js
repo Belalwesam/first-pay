@@ -111,6 +111,14 @@ for (let i = 0; i < inputs.length; i++) {
             return otp;
         }, "");
         document.querySelector("input[name=otp]").value = inputValue;
+
+        inputs.forEach(input => {
+            if (input.value !== '') {
+                input.classList.add('active')
+            } else {
+                input.classList.remove('active')
+            }
+        });
     }
 })();
 
