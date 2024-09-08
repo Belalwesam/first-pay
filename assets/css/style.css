@@ -616,16 +616,25 @@ body.full-height {
 #otp-input {
     display: flex;
     gap: 0.5em;
+    justify-content: center;
 }
 
 #otp-input input {
-    width: 2em;
+    width: 4em;
+    height: 4rem;
+    border-radius: 50%;
+    outline: 0;
+    background-color: #F7F7F7;
+    border-color: transparent;
     padding: 0.5em 0;
     font-family: monospace;
     font-size: 1em;
     text-align: center;
 }
 
+#otp-input input:focus {
+    border: 1px solid var(--primary-blue);
+}
 
 /* hide spinner */
 #otp-input input::-webkit-outer-spin-button,
