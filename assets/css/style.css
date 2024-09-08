@@ -438,6 +438,28 @@ body.full-height {
 
 /* media queries  */
 @media only screen and (max-width: 767px) {
+    .auth-columns {
+        margin-bottom: 1rem;
+    }
+
+    body.full-height {
+        padding-top: 3rem;
+        overflow-x: hidden;
+    }
+
+    .auth-form-inputs {
+        margin-top: 3rem;
+    }
+
+    .auth-form-column {
+        padding-inline: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .auth-page-bg {
+        padding-inline: 1rem;
+    }
+
     #journey {
         margin-top: unset !important;
         text-align: center;
@@ -510,6 +532,19 @@ body.full-height {
     #journey {
         margin-top: unset !important;
         text-align: center;
+    }
+
+    .auth-columns {
+        margin-bottom: 1rem;
+    }
+
+    body.full-height {
+        padding-top: 3rem;
+        overflow-x: hidden;
+    }
+
+    .auth-form-inputs {
+        margin-top: 3rem;
     }
 
     .primary-bg {
