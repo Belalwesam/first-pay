@@ -436,6 +436,28 @@ body.full-height {
     border: 0;
 }
 
+
+.steps-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #E7E7E7;
+    border-radius: 50%;
+    margin-inline: 0.15rem;
+}
+
+.step.active {
+    width: 20px;
+    background-color: var(--primary-blue);
+    border-radius: 35px;
+}
+
 /* media queries  */
 @media only screen and (max-width: 767px) {
     .auth-columns {
@@ -445,6 +467,7 @@ body.full-height {
     body.full-height {
         padding-top: 3rem;
         overflow-x: hidden;
+        height: auto;
     }
 
     .auth-form-inputs {
@@ -520,7 +543,6 @@ body.full-height {
     }
 
     .hero-cta-container .cta {
-
         display: block;
         width: 100%;
         margin-bottom: 1rem;
@@ -541,6 +563,7 @@ body.full-height {
     body.full-height {
         padding-top: 3rem;
         overflow-x: hidden;
+        height: auto;
     }
 
     .auth-form-inputs {
