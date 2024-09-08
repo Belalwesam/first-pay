@@ -375,6 +375,50 @@ body.full-height {
     color: var(--light-gray);
 }
 
+.auth-form-column {
+    padding-inline: 5rem;
+}
+
+.auth-form-text h1 {
+    font-weight: bold;
+}
+
+.auth-form-text p {
+    color: var(--light-gray);
+}
+
+.auth-form-inputs {
+    margin-top: 9rem;
+}
+
+.auth-form-elements-group {
+    margin-bottom: 2rem;
+}
+
+.auth-form-label {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.auth-form-text-input {
+    display: block;
+    width: 100%;
+    border-radius: 35px;
+    outline: 0;
+    border: 0;
+    background: #F7F7F7;
+    padding: 1rem;
+    text-align: right;
+    margin-block: 1rem;
+}
+
+.auth-form-text-input::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.auth-form-anchors {
+    text-decoration: none;
+}
 
 /* media queries  */
 @media only screen and (max-width: 767px) {
