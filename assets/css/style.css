@@ -420,6 +420,22 @@ body.full-height {
     text-decoration: none;
 }
 
+.auth-form-submit-button-container {
+    margin-top: 4rem;
+}
+
+.auth-form-submit-button {
+    display: block;
+    width: 100%;
+    background-color: var(--primary-blue);
+    color: #fff;
+    font-weight: bold;
+    padding-block: .75rem;
+    border-radius: 35px;
+    outline: 0;
+    border: 0;
+}
+
 /* media queries  */
 @media only screen and (max-width: 767px) {
     #journey {
