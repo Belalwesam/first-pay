@@ -497,8 +497,6 @@ body.full-height {
     cursor: not-allowed;
 }
 
-
-
 /* media queries  */
 @media only screen and (max-width: 767px) {
     .auth-columns {
