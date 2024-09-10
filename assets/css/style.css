@@ -458,6 +458,10 @@ body.full-height {
     border-radius: 35px;
 }
 
+.accordion-item {
+    overflow: hidden;
+}
+
 /* media queries  */
 @media only screen and (max-width: 767px) {
     .auth-columns {
@@ -612,6 +616,10 @@ body.full-height {
         overflow: hidden;
     }
 }
+
+
+
+/* otp input styles */
 
 #otp-input {
     display: flex;
