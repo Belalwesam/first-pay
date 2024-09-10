@@ -462,6 +462,43 @@ body.full-height {
     overflow: hidden;
 }
 
+
+.register-radio {
+    visibility: hidden;
+}
+
+.radio-label {
+    display: flex;
+    width: 100%;
+    border: 1px solid #EEEEEE;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.radio-label img {
+    width: 65px;
+    margin-inline-end: .75rem;
+}
+
+.radio-label p.lead {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: .5rem !important;
+}
+
+.radio-label p:not(.lead) {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.auth-form-submit-button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+
+
 /* media queries  */
 @media only screen and (max-width: 767px) {
     .auth-columns {
