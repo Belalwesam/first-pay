@@ -470,7 +470,7 @@ body.full-height {
 .radio-label {
     display: flex;
     width: 100%;
-    border: 1px solid #EEEEEE;
+    border: 2px solid #EEEEEE;
     padding: 1rem;
     align-items: center;
     border-radius: 25px;
@@ -495,6 +495,10 @@ body.full-height {
 .auth-form-submit-button.disabled {
     opacity: 0.5;
     cursor: not-allowed;
+}
+
+.radio-label.active {
+    border-color: var(--primary-blue) !important;
 }
 
 /* media queries  */
