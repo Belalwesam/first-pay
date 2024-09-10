@@ -132,7 +132,7 @@ body {
 
 
 #hero {
-    background-image: url('/assets/images/hero-banner.svg');
+    background-image: url('../images/hero-banner.svg');
     padding-top: 55px;
 }
 
