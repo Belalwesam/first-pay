@@ -7,7 +7,8 @@
 
     <!-- vendors  -->
     <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.rtl.min.css">
-
+    <!-- twiloio phone number input -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
     <!-- core style -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>First Pay</title>
@@ -27,7 +28,14 @@
                 <div class="auth-form-inputs">
                     <form action="#">
                         <div class="row">
-                            <div class="col-12 col-lg-6">
+                            <div class="col-12">
+                                <div class="auth-form-elements-group">
+                                    <label for="phone" class="auth-form-label d-block">رقم الهاتف</label>
+                                    <input type="tel" name="phone" id="phone" class="auth-form-text-input phone" dir="ltr"
+                                        placeholder="اكتب بريدك الالكتروني هنا">
+                                </div>
+                            </div>
+                            <!-- <div class="col-12 col-lg-6">
                                 <div class="auth-form-elements-group">
                                     <label for="email" class="auth-form-label">البريد الالكتروني</label>
                                     <input type="email" name="email" id="email" class="auth-form-text-input"
@@ -35,23 +43,21 @@
                                 </div>
                             </div>
                             <div class="col-12 col-lg-6">
+                                <div class="auth-form-elements-group">
+                                    <label for="email" class="auth-form-label">كلمة المرور</label>
+                                    <input type="email" name="email" id="email" class="auth-form-text-input mb-0"
+                                        placeholder="اكتب كلة المرور هنا">
+                                </div>
+                            </div> -->
+
+
+                            <!-- <div class="col-12">
                                 <div class="auth-form-elements-group mb-0">
                                     <label for="email" class="auth-form-label">كلمة المرور</label>
                                     <input type="email" name="email" id="email" class="auth-form-text-input mb-0"
                                         placeholder="اكتب كلة المرور هنا">
                                 </div>
-                            </div>
-                            <div class="auth-form-elements-group">
-                                <label for="email" class="auth-form-label">البريد الالكتروني</label>
-                                <input type="email" name="email" id="email" class="auth-form-text-input"
-                                    placeholder="اكتب بريدك الالكتروني هنا">
-                            </div>
-
-                            <div class="auth-form-elements-group mb-0">
-                                <label for="email" class="auth-form-label">كلمة المرور</label>
-                                <input type="email" name="email" id="email" class="auth-form-text-input mb-0"
-                                    placeholder="اكتب كلة المرور هنا">
-                            </div>
+                            </div> -->
                         </div>
                         <a href="#" class="auth-form-anchors">نسيت كلمة المرور</a>
 
@@ -87,8 +93,18 @@
     </div>
     <!-- vendors -->
     <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- twilio phone number input -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
     <!-- core script -->
     <script src="/assets/js/script.js"></script>
+    <script>
+        const phoneInputField = document.querySelector("#phone");
+        const phoneInput = window.intlTelInput(phoneInputField, {
+            utilsScript:
+                "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+        });
+    </script>
 </body>
 
 </html>

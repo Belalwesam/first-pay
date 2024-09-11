@@ -501,6 +501,23 @@ body.full-height {
     border-color: var(--primary-blue) !important;
 }
 
+.iti.iti--allow-dropdown {
+    width: 100%;
+}
+
+.iti__selected-flag {
+    padding-left: 25px !important;
+}
+
+.iti--allow-dropdown .iti__flag-container:hover .iti__selected-flag {
+    background-color: transparent !important;
+}
+
+.iti__arrow {
+    position: absolute;
+    right: -20px;
+}
+
 /* media queries  */
 @media only screen and (max-width: 767px) {
     .auth-columns {
