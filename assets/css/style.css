@@ -518,6 +518,11 @@ body.full-height {
     right: -20px;
 }
 
+#phone {
+    margin-block: 1rem !important;
+    padding-right: 1rem !important;
+}
+
 /* media queries  */
 @media only screen and (max-width: 767px) {
     .auth-columns {
