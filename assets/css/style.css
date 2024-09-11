@@ -349,7 +349,7 @@ footer {
 
 
 body.full-height {
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .auth-container {
@@ -522,6 +522,10 @@ body.full-height {
 #phone {
     margin-block: 1rem !important;
     padding-right: 1rem !important;
+}
+
+.iti-0__country-listbox {
+    left: 0 !important;
 }
 
 /* media queries  */
