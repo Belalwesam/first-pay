@@ -349,7 +349,7 @@ footer {
 
 
 body.full-height {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .auth-container {
@@ -377,6 +377,7 @@ body.full-height {
 
 .auth-form-column {
     padding-inline: 5rem;
+    padding-block: 2rem;
 }
 
 .auth-form-text h1 {
