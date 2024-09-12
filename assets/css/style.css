@@ -511,6 +511,7 @@ body.full-height {
   top: 50%;
   transform: translateY(-50%);
 }
+
 /* media queries  */
 @media only screen and (max-width: 767px) {
   .auth-columns {
