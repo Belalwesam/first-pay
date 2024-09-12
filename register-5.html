@@ -25,7 +25,7 @@
                         هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى.
                     </p>
                 </div>
-                <div class="auth-form-inputs">
+                <div class="auth-form-inputs mt-4">
                     <form action="#">
                         <div class="row">
                             <div class="col-12 col-md-6">
@@ -47,25 +47,94 @@
                                     </select>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="auth-form-elements-group">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        بالنقر هنا فإنك توافق على <a href="" style="text-decoration:underline;">سياسة
-                                            الخصوصية</a>
-                                    </label>
+
+
+                            <div class="col-12 col-md-6">
+                                <div class="auth-form-elements-group">
+                                    <label for="phone" class="auth-form-label d-block">رأس المال</label>
+                                    <input type="text" name="name" id="name" class="auth-form-text-input"
+                                        placeholder="أدخل رأس المال هنا">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="auth-form-elements-group">
+                                    <label for="phone" class="auth-form-label d-block">رأس المال</label>
+                                    <input type="text" name="name" id="name" class="auth-form-text-input"
+                                        placeholder="أدخل رأس المال هنا">
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="auth-form-elements-group">
+                                    <label for="phone" class="auth-form-label d-block">بريد الشركة الالكتروني</label>
+                                    <input type="text" name="name" id="name" class="auth-form-text-input"
+                                        placeholder="أدخل بريد الشركة الالكتروني هنا">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="auth-form-elements-group">
+                                    <label for="phone" class="auth-form-label d-block">موقع الشركة</label>
+                                    <input type="text" name="name" id="name" class="auth-form-text-input"
+                                        placeholder="أدخل موقع الشركة هنا">
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-md-6">
+                                <div class="auth-form-elements-group">
+                                    <label for="phone" class="auth-form-label d-block">عدد الموظفين</label>
+                                    <input type="text" name="name" id="name" class="auth-form-text-input"
+                                        placeholder="أدخل عدد الموظفين هنا">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="auth-form-elements-group">
+                                    <label for="phone" class="auth-form-label d-block">رقم هاتف الشركة</label>
+                                    <input type="tel" name="phone" id="phone" class="auth-form-text-input mr-4 my-1"
+                                    dir="ltr" placeholder="أدخل  رقم هاتف الشركة هنا">
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="auth-form-elements-group">
+                                    <label for="phone" class="auth-form-label d-block">اسم الممثل</label>
+                                    <input type="text" name="name" id="name" class="auth-form-text-input"
+                                        placeholder="أدخل اسم الممثل هنا">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="auth-form-elements-group">
+                                    <label for="phone" class="auth-form-label d-block">رقم هاتف الممثل</label>
+                                    <input type="tel" name="phone" id="phone2" class="auth-form-text-input mr-4 my-1"
+                                    dir="ltr" placeholder="أدخل  رقم هاتف الممثل هنا">
+                                </div>
+                            </div>
+
+
+                            <div class="col-12">
+                                <div class="auth-form-elements-group">
+                                    <label for="phone" class="auth-form-label d-block">ايميل الممثل</label>
+                                    <input type="text" name="name" id="name" class="auth-form-text-input"
+                                        placeholder="أدخل ايميل الممثل هنا">
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="auth-form-elements-group">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            بالنقر هنا فإنك توافق على <a href="" style="text-decoration:underline;">سياسة
+                                                الخصوصية</a>
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                       
 
-                        <div class="auth-form-submit-button-container mb-3">
-                            <button type="submit" class="auth-form-submit-button">تسجيل الدخول</button>
-                        </div>
-                        <div class="create-account-container text-center">
-                            <span>ليس لديك حساب ؟</span>
-                            <a href="#" class="auth-form-anchors font-bold">إنشاء حساب</a>
+                        <div class="auth-form-submit-button-container my-3">
+                            <button type="submit" class="auth-form-submit-button">تأكيد</button>
                         </div>
                     </form>
                 </div>
@@ -100,6 +169,14 @@
     <script>
         const phoneInputField = document.querySelector("#phone");
         const phoneInput = window.intlTelInput(phoneInputField, {
+            utilsScript:
+                "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+            initialCountry: "sa", // Set the default country (US)
+
+        });
+
+        const phoneInputField2 = document.querySelector("#phone2");
+        const phoneInput2 = window.intlTelInput(phoneInputField2, {
             utilsScript:
                 "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
             initialCountry: "sa", // Set the default country (US)

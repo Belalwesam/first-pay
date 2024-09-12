@@ -488,13 +488,20 @@ body.full-height {
 .iti--allow-dropdown .iti__flag-container:hover .iti__selected-flag {
   background-color: transparent !important;
 }
-
+.iti__country-list {
+  left: 0 !important;
+}
 .iti__arrow {
   position: absolute;
   right: -20px;
 }
 
-#phone {
+.iti--allow-dropdown input,
+.iti--allow-dropdown input[type="text"],
+.iti--allow-dropdown input[type="tel"],
+.iti--separate-dial-code input,
+.iti--separate-dial-code input[type="text"],
+.iti--separate-dial-code input[type="tel"] {
   margin-block: 1rem !important;
   padding-right: 1rem !important;
 }
@@ -511,7 +518,6 @@ body.full-height {
   top: 50%;
   transform: translateY(-50%);
 }
-
 /* media queries  */
 @media only screen and (max-width: 767px) {
   .auth-columns {
