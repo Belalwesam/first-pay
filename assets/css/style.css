@@ -518,6 +518,28 @@ body.full-height {
   top: 50%;
   transform: translateY(-50%);
 }
+
+.copy-btn {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--primary-blue);
+  color: #fff;
+  border-radius: 35px;
+  height: 80%;
+  outline: 0;
+  border: 0;
+  font-size: 0.9rem;
+  padding-inline: 2rem;
+  font-weight: bold;
+  margin-left: 0.4rem;
+}
+
+.auth-form-submit-button.outline {
+  background-color: var(--secondary-blue) !important;
+  color: var(--primary-blue) !important;
+}
 /* media queries  */
 @media only screen and (max-width: 767px) {
   .auth-columns {
