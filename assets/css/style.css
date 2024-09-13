@@ -625,6 +625,35 @@ body.full-height {
   opacity: 0.6;
 }
 
+.single-blog-card img {
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.blog-item-text .blog-item-date-time {
+  color: #141313;
+  opacity: 0.6;
+  margin-bottom: 0.2rem !important;
+}
+
+.blog-item-text .blog-item-heading {
+  margin-bottom: 0.5rem !important;
+}
+
+.blog-item-text .blog-item-heading a {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 0.5rem !important;
+  text-decoration: none;
+}
+
+.blog-item-text .blog-item-description {
+  color: #141313;
+  opacity: 0.6;
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+
 /* media queries  */
 @media only screen and (max-width: 767px) {
   .blogs-hero {
