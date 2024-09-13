@@ -594,8 +594,44 @@ body.full-height {
   margin-bottom: 0;
 }
 
+
+.blogs-hero {
+  height: 70vh;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding-inline-start: 4rem;
+}
+
+.blogs-hero-text .date-time {
+  font-size: 1.1rem;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.blogs-hero-text .blogs-hero-heading a {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+  text-decoration: none;
+}
+
+.blogs-hero-text .blogs-hero-subheading {
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
 /* media queries  */
 @media only screen and (max-width: 767px) {
+  .blogs-hero {
+    padding-inline-start: 1rem;
+    height: 50vh;
+  }
+
   .auth-columns {
     margin-bottom: 1rem;
   }
