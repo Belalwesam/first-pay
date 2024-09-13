@@ -488,9 +488,11 @@ body.full-height {
 .iti--allow-dropdown .iti__flag-container:hover .iti__selected-flag {
   background-color: transparent !important;
 }
+
 .iti__country-list {
   left: 0 !important;
 }
+
 .iti__arrow {
   position: absolute;
   right: -20px;
@@ -509,6 +511,7 @@ body.full-height {
 .iti-0__country-listbox {
   left: 0 !important;
 }
+
 .show-hide-password-btn {
   background-color: transparent;
   border: 0;
@@ -540,6 +543,32 @@ body.full-height {
   background-color: var(--secondary-blue) !important;
   color: var(--primary-blue) !important;
 }
+
+
+.contact-info-element {
+  display: flex;
+  align-items: center;
+
+}
+
+.contact-info-element:not(:last-of-type) {
+  margin-bottom: 3rem;
+}
+
+.contact-info-element img {
+  margin-inline-end: 1.5rem;
+}
+
+.contact-info-element p.lead {
+  color: #fff;
+  font-weight: bold;
+}
+
+.contact-info-element p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+}
+
 /* media queries  */
 @media only screen and (max-width: 767px) {
   .auth-columns {
