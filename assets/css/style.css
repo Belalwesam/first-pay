@@ -569,6 +569,21 @@ body.full-height {
   font-size: 1.1rem;
 }
 
+#contact-form {
+  background-color: #F8F8F8;
+  padding: 2rem 2rem;
+  border-radius: 35px;
+}
+
+#contact-form h5 {
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+#contact-form .auth-form-text-input {
+  background-color: #fff;
+}
+
 /* media queries  */
 @media only screen and (max-width: 767px) {
   .auth-columns {
