@@ -584,6 +584,16 @@ body.full-height {
   background-color: #fff;
 }
 
+.privacy-item .privacy-heading {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.privacy-item .privacy-description {
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 0;
+}
+
 /* media queries  */
 @media only screen and (max-width: 767px) {
   .auth-columns {
