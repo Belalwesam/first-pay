@@ -739,8 +739,23 @@ body.full-height {
   margin-bottom: .5rem !important;
 }
 
+.single-job-top {
+  margin-bottom: 1.1rem !important;
+}
+
 .single-job-top-text h5 {
   color: #000;
+  font-weight: bold;
+}
+
+.job-description {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.cta-light.tag {
+  padding-block: 0.5rem !important;
+  padding-inline: 1.5rem !important;
+  font-size: .9rem;
   font-weight: bold;
 }
 
