@@ -688,6 +688,24 @@ body.full-height {
   font-weight: bold;
 }
 
+.magnifier-glass {
+  position: relative;
+}
+
+.magnifier-glass::before {
+  content: '';
+  background-image: url('../images/search-icon.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 99;
+}
+
 /* media queries  */
 @media only screen and (max-width: 767px) {
   .blogs-hero {
