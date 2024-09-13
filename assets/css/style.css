@@ -654,6 +654,40 @@ body.full-height {
   font-size: 0.85rem;
 }
 
+
+.jobs-filter-container {
+  background-color: var(--primary-blue);
+  padding: 2rem;
+  border-radius: 35px;
+}
+
+.jobs-filter-input {
+  padding: 0.75rem 1rem;
+  width: 100%;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.2);
+  outline: 0;
+  border: 0;
+  border-radius: 35px;
+  color: #fff;
+}
+
+.jobs-filter-input::placeholder {
+  color: #fff;
+}
+
+.jobs-filter-submit-btn {
+  display: block;
+  width: 100%;
+  padding-block: 0.5rem;
+  border-radius: 35px;
+  outline: 0;
+  border: 0;
+  background-color: #fff;
+  color: var(--primary-blue);
+  font-weight: bold;
+}
+
 /* media queries  */
 @media only screen and (max-width: 767px) {
   .blogs-hero {
