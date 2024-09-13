@@ -703,7 +703,28 @@ body.full-height {
   left: 2rem;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 99;
+  z-index: 2;
+}
+
+.jobs-filter-input.select {
+  appearance: none;
+}
+
+.dropdown-arrow {
+  position: relative;
+}
+
+.dropdown-arrow::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 2rem;
+  width: 25px;
+  height: 25px;
+  background-image: url('../images/drop-arrow.svg');
+  background-size: cover;
+  z-index: 2;
 }
 
 /* media queries  */
