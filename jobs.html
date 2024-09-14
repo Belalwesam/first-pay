@@ -334,14 +334,44 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
-              
-                <div class="modal-body ps-0 ps-lg-5">
-                    <h5 class="modal-heading-text">قدم الان</h5>
 
+                <div class="modal-body ps-0 ps-lg-3 py-4">
+                    <h5 class="modal-heading-text mb-3">قدم الان!</h5>
+                    <form action="#" class="apply-form">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="job-apply-input-group">
+                                    <label for="name">اسمك الكامل</label>
+                                    <input type="text" name="name" id="name" class="job-apply-input"
+                                        placeholder="اكتب اسمك هنا">
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="job-apply-input-group">
+                                    <label for="phone">رقم التواصل</label>
+                                    <input type="text" name="phone" id="phone" class="job-apply-input"
+                                        placeholder="أدخل رقم التواصل">
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="job-apply-input-group">
+                                    <label for="email">الايميل</label>
+                                    <input type="text" name="email" id="email" class="job-apply-input"
+                                        placeholder="ادخل الايميل">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="job-form-apply-btn">
+                                    ارسال
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-               
             </div>
         </div>
     </div>
