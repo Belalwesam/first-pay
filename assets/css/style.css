@@ -298,6 +298,7 @@ footer {
   background-color: #fafafa;
   margin-top: 8rem;
   padding-block: 4rem;
+  overflow-x: hidden;
 }
 
 .footer-logo {
