@@ -817,11 +817,25 @@ body.full-height {
 .dz-message {
   margin-block: 2rem;
 }
+
 .note.needsclick {
   color: var(--primary-blue);
 }
+
 /* media queries  */
 @media only screen and (max-width: 767px) {
+  .single-job-top {
+    flex-direction: column !important;
+  }
+
+  .job-title {
+    margin-bottom: 1rem !important;
+  }
+
+  .cta.tag {
+    margin-bottom: 0.5rem !important;
+  }
+
   .blogs-hero {
     padding-inline-start: 1rem;
     height: 50vh;
@@ -917,6 +931,10 @@ body.full-height {
 
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .cta.tag {
+    margin-bottom: 0.5rem !important;
+  }
+
   #journey {
     margin-top: unset !important;
     text-align: center;
