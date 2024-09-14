@@ -807,6 +807,19 @@ body.full-height {
   margin-top: 1rem;
 }
 
+#dropzone-area {
+  background-color: var(--secondary-blue);
+  border: 2px dashed var(--primary-blue);
+  border-radius: 20px;
+}
+
+
+.dz-message {
+  margin-block: 2rem;
+}
+.note.needsclick {
+  color: var(--primary-blue);
+}
 /* media queries  */
 @media only screen and (max-width: 767px) {
   .blogs-hero {
