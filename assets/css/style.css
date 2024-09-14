@@ -759,6 +759,13 @@ body.full-height {
   font-weight: bold;
 }
 
+.modal-content {
+  border-radius: 35px;
+}
+.modal-heading-text {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
 /* media queries  */
 @media only screen and (max-width: 767px) {
   .blogs-hero {
