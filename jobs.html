@@ -7,6 +7,7 @@
 
     <!-- vendors  -->
     <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="./assets/vendor/dropzone/dropzone.css" />
 
     <!-- core style -->
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -365,6 +366,20 @@
                                 </div>
                             </div>
                             <div class="col-12">
+                                <div id="dropzone-area">
+                                    <div class="dz-message needsclick">
+                                        Drop files here or click to upload
+                                        <span class="note needsclick">(This is just a demo dropzone. Selected files are
+                                            <strong>not</strong>
+                                            actually
+                                            uploaded.)</span>
+                                    </div>
+                                    <div class="fallback">
+                                        <input name="file" type="file" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
                                 <button type="submit" class="job-form-apply-btn">
                                     ارسال
                                 </button>
@@ -482,8 +497,24 @@
     <!-- end footer -->
     <!-- vendors -->
     <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/vendor/dropzone/dropzone.js"></script>
+
+    <script>
+
+    </script>
     <!-- core script -->
     <script src="/assets/js/script.js"></script>
+    <script>
+        Dropzone.autoDiscover = false;
+        const myDropzone = new Dropzone('#dropzone-area', {
+            url: '/test',
+            autoProcessQueues: false,
+            parallelUploads: 1,
+            maxFilesize: 5,
+            addRemoveLinks: true,
+            maxFiles: 1
+        });
+    </script>
 </body>
 
 </html>
