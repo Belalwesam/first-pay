@@ -545,11 +545,9 @@ body.full-height {
   color: var(--primary-blue) !important;
 }
 
-
 .contact-info-element {
   display: flex;
   align-items: center;
-
 }
 
 .contact-info-element:not(:last-of-type) {
@@ -571,7 +569,7 @@ body.full-height {
 }
 
 #contact-form {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   padding: 2rem 2rem;
   border-radius: 35px;
 }
@@ -595,7 +593,6 @@ body.full-height {
   margin-bottom: 0;
 }
 
-
 .blogs-hero {
   height: 70vh;
   background-size: cover;
@@ -610,7 +607,7 @@ body.full-height {
 
 .blogs-hero-text .date-time {
   font-size: 1.1rem;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 0.6;
 }
 
@@ -622,7 +619,7 @@ body.full-height {
 }
 
 .blogs-hero-text .blogs-hero-subheading {
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 0.6;
 }
 
@@ -654,7 +651,6 @@ body.full-height {
   font-weight: bold;
   font-size: 0.85rem;
 }
-
 
 .jobs-filter-container {
   background-color: var(--primary-blue);
@@ -694,8 +690,8 @@ body.full-height {
 }
 
 .magnifier-glass::before {
-  content: '';
-  background-image: url('../images/search-icon.svg');
+  content: "";
+  background-image: url("../images/search-icon.svg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 25px;
@@ -716,28 +712,27 @@ body.full-height {
 }
 
 .dropdown-arrow::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   left: 2rem;
   width: 25px;
   height: 25px;
-  background-image: url('../images/drop-arrow.svg');
+  background-image: url("../images/drop-arrow.svg");
   background-size: cover;
   z-index: 2;
 }
 
-
 .single-job-item {
   border-radius: 35px;
-  background: #F8F8F8;
+  background: #f8f8f8;
   padding: 1rem 2rem;
 }
 
 .single-job-top-text .datetime {
   color: rgba(0, 0, 0, 0.6);
-  margin-bottom: .5rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 .single-job-top {
@@ -756,7 +751,7 @@ body.full-height {
 .cta-light.tag {
   padding-block: 0.5rem !important;
   padding-inline: 1.5rem !important;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: bold;
 }
 
@@ -784,7 +779,7 @@ body.full-height {
   width: 100%;
   padding-block: 0.75rem;
   padding-inline: 1rem;
-  background: #EEEEEE;
+  background: #eeeeee;
   outline: 0;
   border: 0;
   border-radius: 35px;
@@ -813,7 +808,6 @@ body.full-height {
   border: 2px dashed var(--primary-blue);
   border-radius: 20px;
 }
-
 
 .dz-message {
   margin-block: 2rem;
@@ -930,7 +924,6 @@ body.full-height {
   }
 }
 
-
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   .cta.tag {
     margin-bottom: 0.5rem !important;
@@ -998,6 +991,26 @@ body.full-height {
   }
 }
 
+@media only screen and (min-width: 1025px) and (max-width: 1202px) {
+  #mobile-menu-btn {
+    display: block !important;
+  }
+
+  #mobile-btn-container {
+    display: block !important;
+  }
+
+  .header-cta,
+  #header-nav-list {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  #mobile-btn-container {
+    display: block !important;
+  }
+}
 /* otp input styles */
 
 #otp-input {
