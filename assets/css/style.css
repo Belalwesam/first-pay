@@ -118,7 +118,7 @@ body {
 }
 
 .mobile-menu.active {
-  height: auto;
+  height: auto !important;
 }
 
 #hero {
@@ -1031,4 +1031,18 @@ body.full-height {
 #otp-input input[type="number"] {
   -moz-appearance: textfield;
   /* Firefox */
+}
+@media screen and (min-width: 768px) and (max-width: 1201px) {
+  #header-nav-list,
+  .header-cta {
+    display: none !important;
+  }
+  #mobile-menu-btn,
+  #mobile-btn-container {
+    display: block !important;
+  }
+  .mobile-menu {
+    height: 0 !important;
+    overflow: hidden;
+  }
 }
