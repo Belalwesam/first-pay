@@ -817,6 +817,13 @@ body.full-height {
   color: var(--primary-blue);
 }
 
+.blog-img img {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 35px;
+}
+
 /* media queries  */
 @media only screen and (max-width: 767px) {
   .single-job-top {
@@ -1032,15 +1039,19 @@ body.full-height {
   -moz-appearance: textfield;
   /* Firefox */
 }
+
 @media screen and (min-width: 768px) and (max-width: 1201px) {
+
   #header-nav-list,
   .header-cta {
     display: none !important;
   }
+
   #mobile-menu-btn,
   #mobile-btn-container {
     display: block !important;
   }
+
   .mobile-menu {
     height: 0 !important;
     overflow: hidden;
