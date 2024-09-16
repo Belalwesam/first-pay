@@ -824,6 +824,10 @@ body.full-height {
   border-radius: 35px;
 }
 
+.blog-text h4 {
+  font-weight: bold;
+}
+
 /* media queries  */
 @media only screen and (max-width: 767px) {
   .single-job-top {
