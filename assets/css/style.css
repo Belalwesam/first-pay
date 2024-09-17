@@ -250,6 +250,7 @@ body {
   grid-template-columns: repeat(5, auto);
   grid-gap: 1rem;
 }
+
 .partners-more-links {
   height: 100%;
   display: flex;
@@ -257,12 +258,14 @@ body {
   justify-content: center;
   background-color: var(--secondary-blue);
 }
+
 .partners-more-links a {
   font-weight: bold;
   text-decoration: none;
   font-size: 1.5rem;
   color: var(--primary-blue);
 }
+
 .accordion-item {
   background-color: rgba(0, 0, 0, 0.02);
   border-radius: 35px !important;
@@ -1062,6 +1065,7 @@ body.full-height {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1201px) {
+
   #header-nav-list,
   .header-cta {
     display: none !important;
@@ -1076,4 +1080,19 @@ body.full-height {
     height: 0 !important;
     overflow: hidden;
   }
+}
+
+.iti--separate-dial-code .iti__selected-flag {
+  background-color: transparent;
+}
+
+.iti__selected-dial-code {
+  font-size: 0.8rem;
+  position: relative;
+}
+
+.iti--separate-dial-code .iti__selected-dial-code {
+  position: absolute;
+  left: 150%;
+  font-weight: bold;
 }
