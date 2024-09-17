@@ -245,6 +245,11 @@ body {
   padding: 2rem;
 }
 
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 1rem;
+}
 .accordion-item {
   background-color: rgba(0, 0, 0, 0.02);
   border-radius: 35px !important;
