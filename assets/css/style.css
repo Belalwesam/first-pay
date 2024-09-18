@@ -1,9 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+@font-face {
+  font-family: 'Montserrat Arabic';
+  /* Name of the custom font */
+  src: url('../fonts/Montserrat-Arabic-Regular-2.ttf');
+  /* Fallback format */
+  font-weight: normal;
+  font-style: normal;
+}
+
 *,
 body,
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat Arabic", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -179,7 +188,6 @@ body {
 
 .hero-avatars-cta-text p.lead {
   color: #000;
-  font-weight: bolder;
   font-size: 1.05rem;
 }
 
@@ -226,7 +234,7 @@ body {
   color: #000;
   font-size: 2rem;
   line-height: 1.4;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .section-text h3 span {
@@ -260,7 +268,7 @@ body {
 }
 
 .partners-more-links a {
-  font-weight: bold;
+  font-weight: normal;
   text-decoration: none;
   font-size: 1.5rem;
   color: var(--primary-blue);
@@ -275,7 +283,7 @@ body {
   background-color: rgba(0, 0, 0, 0.02);
   color: #000;
   padding-block: 1.5rem;
-  font-weight: bold;
+  font-weight: normal;
   box-shadow: none !important;
 }
 
@@ -295,7 +303,7 @@ body {
 }
 
 .primary-section-text h2 {
-  font-weight: bold;
+  font-weight: normal;
   margin-bottom: 1.4rem;
 }
 
@@ -333,7 +341,7 @@ footer {
 
 .footer-heading {
   margin-bottom: 1.5rem;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .footer-nav-item {
@@ -366,7 +374,7 @@ body.full-height {
 }
 
 .auth-page-stepper-text h4 {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .auth-page-stepper-text p {
@@ -379,7 +387,7 @@ body.full-height {
 }
 
 .auth-form-text h1 {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .auth-form-text p {
@@ -396,7 +404,7 @@ body.full-height {
 
 .auth-form-label {
   font-size: 1.1rem;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .auth-form-text-input {
@@ -428,7 +436,7 @@ body.full-height {
   width: 100%;
   background-color: var(--primary-blue);
   color: #fff;
-  font-weight: bold;
+  font-weight: normal;
   padding-block: 0.75rem;
   border-radius: 35px;
   outline: 0;
@@ -480,7 +488,7 @@ body.full-height {
 
 .radio-label p.lead {
   color: #000;
-  font-weight: bold;
+  font-weight: normal;
   margin-bottom: 0.5rem !important;
 }
 
@@ -556,7 +564,7 @@ body.full-height {
   border: 0;
   font-size: 0.9rem;
   padding-inline: 2rem;
-  font-weight: bold;
+  font-weight: normal;
   margin-left: 0.4rem;
 }
 
@@ -580,7 +588,7 @@ body.full-height {
 
 .contact-info-element p.lead {
   color: #fff;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .contact-info-element p {
@@ -596,7 +604,7 @@ body.full-height {
 
 #contact-form h5 {
   margin-bottom: 2rem;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 #contact-form .auth-form-text-input {
@@ -605,7 +613,7 @@ body.full-height {
 
 .privacy-item .privacy-heading {
   font-size: 1.1rem;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .privacy-item .privacy-description {
@@ -633,7 +641,7 @@ body.full-height {
 
 .blogs-hero-text .blogs-hero-heading a {
   color: #fff;
-  font-weight: bold;
+  font-weight: normal;
   margin-bottom: 1.2rem;
   text-decoration: none;
 }
@@ -660,7 +668,7 @@ body.full-height {
 
 .blog-item-text .blog-item-heading a {
   color: #000;
-  font-weight: bold;
+  font-weight: normal;
   margin-bottom: 0.5rem !important;
   text-decoration: none;
 }
@@ -668,7 +676,7 @@ body.full-height {
 .blog-item-text .blog-item-description {
   color: #141313;
   opacity: 0.6;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 0.85rem;
 }
 
@@ -702,7 +710,7 @@ body.full-height {
   border: 0;
   background-color: #fff;
   color: var(--primary-blue);
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .magnifier-glass {
@@ -743,9 +751,11 @@ body.full-height {
   background-size: cover;
   z-index: 2;
 }
+
 .dark-dropdown-arrow {
   position: relative;
 }
+
 .dark-dropdown-arrow::after {
   content: "";
   position: absolute;
@@ -776,7 +786,7 @@ body.full-height {
 
 .single-job-top-text h5 {
   color: #000;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .job-description {
@@ -787,7 +797,7 @@ body.full-height {
   padding-block: 0.5rem !important;
   padding-inline: 1.5rem !important;
   font-size: 0.9rem;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .modal-content {
@@ -795,7 +805,7 @@ body.full-height {
 }
 
 .modal-heading-text {
-  font-weight: bold;
+  font-weight: normal;
   margin-bottom: 2rem;
 }
 
@@ -805,7 +815,7 @@ body.full-height {
 
 .job-apply-input-group label {
   color: #000;
-  font-weight: bold;
+  font-weight: normal;
   margin-bottom: 1rem;
 }
 
@@ -830,7 +840,7 @@ body.full-height {
   width: 100%;
   background-color: var(--primary-blue);
   color: #fff;
-  font-weight: bold;
+  font-weight: normal;
   padding-block: 0.75rem;
   border-radius: 35px;
   outline: 0;
@@ -860,11 +870,13 @@ body.full-height {
 }
 
 .blog-text h4 {
-  font-weight: bold;
+  font-weight: normal;
 }
+
 .select-hide-dropdown {
   appearance: none;
 }
+
 /* media queries  */
 @media only screen and (max-width: 767px) {
   .single-job-top {
@@ -1082,6 +1094,7 @@ body.full-height {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1201px) {
+
   #header-nav-list,
   .header-cta {
     display: none !important;
@@ -1110,5 +1123,5 @@ body.full-height {
 .iti--separate-dial-code .iti__selected-dial-code {
   position: absolute;
   left: 150%;
-  font-weight: bold;
+  font-weight: normal;
 }
