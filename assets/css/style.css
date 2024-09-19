@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 @font-face {
-  font-family: 'Montserrat Arabic';
+  font-family: "Montserrat Arabic";
   /* Name of the custom font */
-  src: url('../fonts/Montserrat-Arabic-Regular-2.ttf');
+  src: url("../fonts/Montserrat-Arabic-Regular-2.ttf");
   /* Fallback format */
   font-weight: normal;
   font-style: normal;
@@ -879,6 +879,9 @@ body.full-height {
 
 /* media queries  */
 @media only screen and (max-width: 767px) {
+  .partners-grid {
+    grid-template-columns: repeat(1, auto);
+  }
   .single-job-top {
     flex-direction: column !important;
   }
@@ -988,7 +991,9 @@ body.full-height {
   .cta.tag {
     margin-bottom: 0.5rem !important;
   }
-
+  .partners-grid {
+    grid-template-columns: repeat(2, auto);
+  }
   #journey {
     margin-top: unset !important;
     text-align: center;
@@ -1094,7 +1099,6 @@ body.full-height {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1201px) {
-
   #header-nav-list,
   .header-cta {
     display: none !important;
