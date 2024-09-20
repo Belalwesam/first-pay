@@ -16,7 +16,9 @@ html {
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+html {
+  overflow-x: hidden;
+}
 :root {
   --primary-blue: #3bade2;
   --secondary-blue: rgba(59, 173, 226, 0.1);
