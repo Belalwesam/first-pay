@@ -615,12 +615,13 @@ body.full-height {
 
 .privacy-item .privacy-heading {
   font-size: 1.1rem;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .privacy-item .privacy-description {
   color: rgba(0, 0, 0, 0.8);
   margin-bottom: 0;
+  font-size: 0.9rem;
 }
 
 .blogs-hero {
