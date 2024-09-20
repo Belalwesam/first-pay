@@ -16,9 +16,11 @@ html {
   font-optical-sizing: auto;
   font-style: normal;
 }
+
 html {
   overflow-x: hidden;
 }
+
 :root {
   --primary-blue: #3bade2;
   --secondary-blue: rgba(59, 173, 226, 0.1);
@@ -529,6 +531,7 @@ body.full-height {
 .iti__arrow {
   position: absolute;
   right: -20px;
+  display: none;
 }
 
 .iti--allow-dropdown input,
@@ -1135,7 +1138,7 @@ body.full-height {
 
 .iti--separate-dial-code .iti__selected-dial-code {
   position: absolute;
-  left: 150%;
+  left: 100%;
   font-weight: normal;
 }
 
@@ -1147,4 +1150,18 @@ body.full-height {
 .accordion-body {
   color: rgba(0, 0, 0, 0.8) !important;
   font-size: 0.9rem;
+}
+
+
+.phone-dropdown::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 5.5rem;
+  width: 25px;
+  height: 25px;
+  background-image: url("../images/dark-dropdown-arrow.svg");
+  background-size: cover;
+  z-index: 2;
 }
