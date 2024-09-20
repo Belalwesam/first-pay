@@ -882,6 +882,7 @@ body.full-height {
   .partners-grid {
     grid-template-columns: repeat(1, auto);
   }
+
   .single-job-top {
     flex-direction: column !important;
   }
@@ -991,9 +992,11 @@ body.full-height {
   .cta.tag {
     margin-bottom: 0.5rem !important;
   }
+
   .partners-grid {
     grid-template-columns: repeat(2, auto);
   }
+
   #journey {
     margin-top: unset !important;
     text-align: center;
@@ -1099,6 +1102,7 @@ body.full-height {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1201px) {
+
   #header-nav-list,
   .header-cta {
     display: none !important;
@@ -1128,4 +1132,9 @@ body.full-height {
   position: absolute;
   left: 150%;
   font-weight: normal;
+}
+
+
+.bold-font {
+  font-weight: bold !important;
 }
