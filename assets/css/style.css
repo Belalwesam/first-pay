@@ -132,6 +132,7 @@ body {
 
 #hero {
   background-image: url("../images/hero-banner.svg");
+  background-size: cover;
   padding-top: 55px;
 }
 
