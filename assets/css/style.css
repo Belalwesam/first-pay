@@ -110,6 +110,7 @@ body {
   height: 0;
   overflow: hidden;
   transition: height 0.4s ease-out;
+  display: none;
 }
 
 #mobile-menu-list {
@@ -994,6 +995,9 @@ body.full-height {
     width: 100%;
     margin-bottom: 1rem;
   }
+  .mobile-menu {
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
@@ -1023,7 +1027,6 @@ body.full-height {
   .auth-form-inputs {
     margin-top: 3rem;
   }
-
   .primary-bg {
     padding: 2rem 1rem;
   }
@@ -1166,5 +1169,11 @@ body.full-height {
 @media (min-width: 1400px) and (max-width: 1569px) {
   .hide-placeholder::placeholder {
     color: transparent;
+  }
+}
+
+@media (max-width: 1201px) {
+  .mobile-menu {
+    display: block !important;
   }
 }
