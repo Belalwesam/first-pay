@@ -1110,7 +1110,6 @@ body.full-height {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1201px) {
-
   #header-nav-list,
   .header-cta {
     display: none !important;
@@ -1142,7 +1141,6 @@ body.full-height {
   font-weight: normal;
 }
 
-
 .bold-font {
   font-weight: bold !important;
 }
@@ -1151,7 +1149,6 @@ body.full-height {
   color: rgba(0, 0, 0, 0.8) !important;
   font-size: 0.9rem;
 }
-
 
 .phone-dropdown::after {
   content: "";
@@ -1164,4 +1161,10 @@ body.full-height {
   background-image: url("../images/dark-dropdown-arrow.svg");
   background-size: cover;
   z-index: 2;
+}
+
+@media (min-width: 1400px) and (max-width: 1569px) {
+  .hide-placeholder::placeholder {
+    color: transparent;
+  }
 }
